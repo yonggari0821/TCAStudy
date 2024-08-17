@@ -1,0 +1,5 @@
+*.xcconfig
+
+info.plist
+
+.DS_Store
