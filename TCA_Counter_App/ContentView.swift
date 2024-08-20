@@ -7,17 +7,25 @@
 
 import SwiftUI
 
+class Counter: ObservableObject {
+    @Published
+    var count: Int = 0
+    
+    @Published
+    var favoritePrimes: [Int] = []
+}
+
 struct ContentView: View {
-//    @StateObject var counter = Counter() // 방법 3시에만 활성화
+    @ObservedObject var counter = Counter()
     
     var body: some View {
         NavigationView {
             List {
-                NavigationLink(destination: CounterView()) {
+                NavigationLink(destination: CounterView(counter: counter)) {
 //                NavigationLink(destination: CounterView(counter: counter)) { // 방법 3시에 이 줄로 변경
                     Text("Counter")
                 }
-                NavigationLink(destination: EmptyView()) {
+                NavigationLink(destination: FavoritePrimesView(counter: counter)) {
                     Text("Favorite Primes")
                 }
             }

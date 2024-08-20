@@ -12,6 +12,7 @@
 		DA93C30E2C6DF41500C42E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA93C30D2C6DF41500C42E10 /* Assets.xcassets */; };
 		DA93C3182C6DF4F900C42E10 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA93C3172C6DF4F900C42E10 /* CounterView.swift */; };
 		DA93C31B2C70261800C42E10 /* WolframAlpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA93C31A2C70261800C42E10 /* WolframAlpha.swift */; };
+		DA93C3232C709B7300C42E10 /* FavoritePrimesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA93C3222C709B7300C42E10 /* FavoritePrimesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		DA93C31A2C70261800C42E10 /* WolframAlpha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WolframAlpha.swift; sourceTree = "<group>"; };
 		DA93C3202C70690700C42E10 /* TCA-Counter-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TCA-Counter-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		DA93C3212C70767700C42E10 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		DA93C3222C709B7300C42E10 /* FavoritePrimesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePrimesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				DA93C3092C6DF41400C42E10 /* TCA_Counter_AppApp.swift */,
 				DA93C30B2C6DF41400C42E10 /* ContentView.swift */,
 				DA93C3172C6DF4F900C42E10 /* CounterView.swift */,
+				DA93C3222C709B7300C42E10 /* FavoritePrimesView.swift */,
 				DA93C30D2C6DF41500C42E10 /* Assets.xcassets */,
 				DA93C31A2C70261800C42E10 /* WolframAlpha.swift */,
 			);
@@ -137,6 +140,7 @@
 			files = (
 				DA93C30C2C6DF41400C42E10 /* ContentView.swift in Sources */,
 				DA93C30A2C6DF41400C42E10 /* TCA_Counter_AppApp.swift in Sources */,
+				DA93C3232C709B7300C42E10 /* FavoritePrimesView.swift in Sources */,
 				DA93C3182C6DF4F900C42E10 /* CounterView.swift in Sources */,
 				DA93C31B2C70261800C42E10 /* WolframAlpha.swift in Sources */,
 			);

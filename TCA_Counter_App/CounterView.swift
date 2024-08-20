@@ -8,14 +8,6 @@
 import SwiftUI
 import Combine
 
-class Counter: ObservableObject {
-    @Published
-    var count: Int = 0
-    
-    @Published
-    var favoritePrimes: [Int] = []
-}
-
 struct CounterView: View {
     
     // 방법 1 State 활용
@@ -42,7 +34,7 @@ struct CounterView: View {
 //    }
     
     // 방법 2 ObservableObject 활용
-    @ObservedObject var counter = Counter() // 여러 뷰에서 공유 가능함!
+    @ObservedObject var counter: Counter // 여러 뷰에서 공유 가능함!
 //    @StateObject var counter = Counter() // 여러 뷰에서 공유 가능함!
     
     @State var isPrimeModalShown = false
